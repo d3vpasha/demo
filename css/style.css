@@ -336,23 +336,6 @@ a {
 }
 
 /*------------------
-    demo-1
--------------------*/
-
-
-.bg-home-full {
-    height: 100vh;
-}
-
-.bg-home {
-    background-image: url('../images/bg-home-full.jpg');
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    padding: 190px 0;
-}
-
-/*------------------
     demo-2
 -------------------*/
 .home-half{
@@ -614,13 +597,6 @@ a {
     10.Subscriber
 **********************/
 
-.bg-subscriber {
-    background-image: url(../images/bg-subscriber.jpg); 
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
 .search-form input {
     padding: 15px 20px;
     width: 100%;
@@ -839,10 +815,6 @@ a {
         color: #000;
     }
 
-    .bg-home {
-        height: auto;
-    }
-
     .home-form{
         height: auto;
     }
@@ -850,14 +822,12 @@ a {
 
 }
 
-
-
 @media (max-width: 991px) {
     .nav-sticky .navbar-toggler {
         color: #000;
     }
 
-.bg-backslide,  .bg-home-full, .home-slider .carousel-item, .home-slider .carousel{
+.bg-backslide, .home-slider .carousel-item, .home-slider .carousel{
         height: auto;
     }
 
